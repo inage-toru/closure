@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <script type="text/javascript" src="../closure-library/closure/goog/base.js"></script><!-- ※Core script -->
+    <script type="text/javascript" src="scripts/deps.js"></script><!-- ※Dependency script -->
+    <script type="text/javascript">
+      goog.require('example.App');
+    </script>
+  </head>
+  <body>
+    <input id="myButton" type="button" value="Push">
+    <script type="text/javascript">
+      new example.App(); // (1) Instantiation
+    </script>
+  </body>
+</html>
